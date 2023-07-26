@@ -63,9 +63,9 @@ cbox_poke_sel.set("Select a Pokemon")
 
 def handle_poke_sel(event):
    global image_path
-   
-   curren_sel = cbox_poke_sel.get()
-   image_path = poke_api.download_pokemon_artwork(curren_sel, images_dir)
+
+   current_sel = cbox_poke_sel.get()
+   image_path = poke_api.download_pokemon_artwork(current_sel, images_dir)
    if image_path:
       lbl_image['text'] = None
       photo['file'] = image_path

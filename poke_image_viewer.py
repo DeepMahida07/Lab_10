@@ -75,7 +75,7 @@ def handle_poke_sel(event):
       #
       #
       #
-      else
+   else
 
 # TODO: Populate frames with widgets and define event handler functions
 
